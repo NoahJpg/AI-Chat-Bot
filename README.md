@@ -39,14 +39,16 @@
 ## Setup and Installation Requirements
 
 * _You'll need:_
-* _Expo Go on your phone (iPhone Only) or Xcode and iPhone Simulator_
+* _An API key from [Open AI](https://platform.openai.com/overview)_
+* _Expo Go App on your phone (iPhone Only) or Xcode and iPhone Simulator (Mac only)_
 * _VS Code_
-
-* _Clone the project and navigate to the project's root foler_
+---------
+* _Clone the project and navigate to the project's root folder_
+* _Add ```.env``` to the root_
+* _In the .env add this: ```"API_KEY=yourApiKeyHere"``` - no quotes or spaces_
 * _Run ```yarn install```_
-* _Add .env file to the parent directory_
-* _In the .env add this: ```API_KEY=yourApiKeyHere```_
-* _You'll need to get an API key from [Open AI](https://platform.openai.com/overview)_
+---------
+* _To run:_
 * _```Expo start``` then hit ```i``` to run on IOS_
 * _Scan QR code to run on your phone, or run Xcode simulator_
 
