@@ -9,11 +9,11 @@ import {
   KeyboardAvoidingView,
 } from "react-native";
 import { Configuration, OpenAIApi } from "openai";
+import { API_KEY } from "@env";
 
 import colors from "../config/colors";
-import {API_KEY} from "@env"
 
-console.log(API_KEY)
+console.log(API_KEY);
 const apiKey = API_KEY;
 
 const configuration = new Configuration({
@@ -30,13 +30,11 @@ const Main = () => {
     try {
       const userInput = input;
 
-      // Create a new message object for the user's input
       const userMessage = {
         content: userInput,
         isUser: true,
       };
 
-      // Add the user's message to the message history
       setMessages((prevMessages) => [...prevMessages, userMessage]);
 
       const response = await openai.createCompletion({
@@ -50,19 +48,16 @@ const Main = () => {
         stop: ["You:"],
       });
 
-      // Extract the chatbot's response from the OpenAI API
       const chatbotResponse = response.data.choices[0].text.replace(
         /^:\s*/,
         ""
       );
 
-      // Create a new message object for the chatbot's response
       const chatbotMessage = {
         content: chatbotResponse,
         isUser: false,
       };
 
-      // Add the chatbot's message to the message history
       setMessages((prevMessages) => [...prevMessages, chatbotMessage]);
     } catch (error) {
       console.log(error);
