@@ -38,8 +38,11 @@
 
 ## Setup and Installation Requirements
 
+* _You'll need:_
+* _Expo Go on your phone (iPhone Only) or Xcode and iPhone Simulator_
+* _VS Code_
 
-* _You'll need Expo Go on your phone (iPhone Only)_
+* _Clone the project and navigate to the project's root foler_
 * _Run ```yarn install```_
 * _Add .env file to the parent directory_
 * _In the .env add this: ```API_KEY=yourApiKeyHere```_
