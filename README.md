@@ -2,19 +2,16 @@
   <p align="center">
     <div style="text-align:center;">
 </div>
-
   </p>
 <h3 align="center">
   🎨 By: Noah Atkinson 
 </h3>
-
   <p align="center">
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" />
     <img src="https://img.shields.io/badge/Version-1.0.0-blue.svg" />
   </p>
   
   <p align="center">
-    <br><br>
     <a href="#description">📝 Description 📚</a>
     <br>
     <a href="#technologies-used">💽 Technologies Used 💾</a>
@@ -46,6 +43,7 @@
 * _Run ```yarn install```_
 * _Add .env file to the parent directory_
 * _In the .env add this: ```API_KEY=yourApiKeyHere```_
+* _You'll need to get an API key from [Open AI](https://platform.openai.com/overview)_
 * _```Expo start``` then hit ```i``` to run on IOS_
 * _Scan QR code to run on your phone, or run Xcode simulator_
 
