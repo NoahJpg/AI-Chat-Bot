@@ -17,8 +17,6 @@
     <br><br>
     <a href="#description">📝 Description 📚</a>
     <br>
-    <a href="#features">👨‍💻 Features 🕹️</a>
-    <br>
     <a href="#technologies-used">💽 Technologies Used 💾</a>
     <br>
     <a href="#setup-and-installation-requirements">🧰 Setup and Installation Requirements 🔨</a>
@@ -30,8 +28,7 @@
 
 
 ## Description
-#### _A React Native app that integrates Chat GPT into a messager._
-
+#### _A React Native app that integrates Chat GPT into message style design_
 
 
 ## Technologies Used
